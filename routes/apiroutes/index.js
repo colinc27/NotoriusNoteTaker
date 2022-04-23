@@ -3,5 +3,4 @@ const notesRoutes = require('../apiRoutes/notesRoutes');
 
 router.use(notesRoutes);
 
-
 module.exports = router;
