@@ -9,7 +9,7 @@
   - [Questions](#questions)
   - [License](#license)
   ## Description <a name="description"></a>
-  This project was created so that a user can genereate a professional READ ME markdown file from the command line. After running the javascript file via node.js the user is given parameters to enter such as name, project title etc. Once the form is completed a new REAME file is generated  with a working table of contents and several other working linksV
+  This project was created so that a user can genereate a professional READ ME markdown file from the command line. After running the javascript file via node.js the user is given parameters to enter such as name, project title etc. Once the form is completed a new REAME file is generated  with a working table of contents and several other working links </br>
   Video link to how the app works [Video](https://drive.google.com/file/d/19IyNHts4-TrQV-5kie61bSG1gG7TjXO-/view) 
   ## Installation <a name="installation"></a>
   The user must have Node.js and a command line interface such as powershell or GITBASH installed prior to cloning this repo. After the repo is cloned install NPM inquirer in the repo that was created and this project will be ready to run.
