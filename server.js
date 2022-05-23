@@ -3,7 +3,7 @@ const express = require('express');
 const port = process.env.port || 5000;
 const app = express();
 const apiroutes = require('./routes/apiroutes');
-const htmlroutes = require('./routes/htmlroutes');
+const htmlRoutes = require('./routes/htmlRoutes');
 
 
 app.use(express.urlencoded({ extended: true }));
@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.static('public'));
 
 app.use('/api', apiroutes);
-app.use('/', htmlroutes);
+app.use('/', htmlRoutes);
 
 app.listen(port, () => {
   console.log(`API server now on port ${port}!`);
